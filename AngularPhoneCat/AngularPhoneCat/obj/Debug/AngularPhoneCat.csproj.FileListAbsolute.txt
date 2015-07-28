@@ -1,0 +1,6 @@
+C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\bin\AngularPhoneCat.dll.config
+C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\bin\AngularPhoneCat.dll
+C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\bin\AngularPhoneCat.pdb
+C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.csprojResolveAssemblyReference.cache
+C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.dll
+C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.pdb
