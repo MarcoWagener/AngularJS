@@ -4,3 +4,9 @@ C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\bi
 C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.csprojResolveAssemblyReference.cache
 C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.dll
 C:\Users\e933211\Desktop\dotNet Test Projects\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.pdb
+C:\Development\GitHub\AngularJS\AngularPhoneCat\AngularPhoneCat\bin\AngularPhoneCat.dll.config
+C:\Development\GitHub\AngularJS\AngularPhoneCat\AngularPhoneCat\bin\AngularPhoneCat.dll
+C:\Development\GitHub\AngularJS\AngularPhoneCat\AngularPhoneCat\bin\AngularPhoneCat.pdb
+C:\Development\GitHub\AngularJS\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.csprojResolveAssemblyReference.cache
+C:\Development\GitHub\AngularJS\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.dll
+C:\Development\GitHub\AngularJS\AngularPhoneCat\AngularPhoneCat\obj\Debug\AngularPhoneCat.pdb
