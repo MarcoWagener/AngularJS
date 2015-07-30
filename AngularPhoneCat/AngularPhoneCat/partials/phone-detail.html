@@ -1,25 +1,60 @@
-﻿<img ng-src="{{phone.images[0]}}" />
-
-<h1 ng-bind="phone.name"></h1>
-
-<p ng-bind="phone.description"></p>
-
-<ul>
-    <li ng-repeat="img in phone.images">
-        <img ng-src="{{img}}" />
-    </li>
-</ul>
-
-<ul>
-    <li>
-        <span>Availability and Networks</span>
-        <dl>
-            <dt>Availability</dt>
-            <dd ng-repeat="availability in phone.availability">{{availability}}</dd>
-        </dl>
-    </li>
-    <li>
-        <span>Additional Features</span>
-        <dd>{{phone.additionalFeatures}}</dd>
-    </li>
-</ul>
+﻿<div class="row">
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="thumbnail">
+                    <img ng-src="{{mainImageUrl}}" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" ng-repeat="image in phone.images">
+                <div class="thumbnail">
+                    <img ng-src="{{image}}" ng-click="setImage(image)" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h3 ng-bind="phone.name"></h3>
+        <p ng-bind="phone.description"></p>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Availability and Networks</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Network Operator</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td ng-repeat="availability in phone.availability">{{availability}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Additional Features</h4>
+                <p ng-bind="phone.additionalFeatures"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Connectivity</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Connection</td>
+                            <td>Available</td>
+                        </tr>
+                    </thead>
+                    <tr ng-repeat="(key, value) in phone.connectivity">
+                        <td>{{key}}</td>
+                        <td>{{value | checkmark}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
